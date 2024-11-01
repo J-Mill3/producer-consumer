@@ -21,11 +21,14 @@ Consumed: 83
 ## Commands to Compile and Run
 
 g++ -pthread -lrt producer.cpp -o producer
+
 g++ -pthread -lrt consumer.cpp -o consumer
+
 ./producer & ./consumer &
 
 ## Commands to Stop the Programs
 
 pkill producer
+
 pkill consumer
 
